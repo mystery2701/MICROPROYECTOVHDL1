@@ -1,0 +1,35 @@
+# Directorios de compilación y temporales de Intel Quartus
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+hc_output/
+.qsys_edit/
+
+# Reportes, logs y archivos de estado generados automáticamente
+*.rpt
+*.summary
+*.done
+*.pin
+*.jdi
+*.qws
+*.smsg
+*.qdf
+*.bak
+*.eqn
+*.pof
+*.bsf
+*.cmp
+
+# Archivos ejecutables de la FPGA
+*.sof
+
+# Archivos de simulación de ModelSim/Qsys
+*.mif
+*.vcd
+*.do
+
+# Archivos basura del sistema operativo
+.DS_Store
+Thumbs.db
