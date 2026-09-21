@@ -88,4 +88,4 @@ begin
     ssd_sec_tens <= decode_7seg(sec_t_count);
     ssd_sec_units <= decode_7seg(sec_u_count);
 
-end Behavioral; -- 11 advertencias corregir
+end Behavioral;
