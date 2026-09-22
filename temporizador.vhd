@@ -15,7 +15,7 @@ entity temporizador is
     );
 end temporizador;
 
-architecture Estructural of top_espacio is
+architecture Estructural of temporizador is
 
     component control_tiempos is
         Port ( clk_1hz, reset, sensor_persona : in STD_LOGIC;
