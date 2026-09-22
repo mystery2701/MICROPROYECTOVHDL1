@@ -1,23 +1,21 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity control is
+entity contador is
     Port (
-        clk_1hz        : in  STD_LOGIC;
-        reset          : in  STD_LOGIC;
-        alarma_led     : out STD_LOGIC
+        valor : in  integer range 0 to 9; 
+        seg   : out STD_LOGIC_VECTOR(6 downto 0)
     );
-end control;
+end contador;
 
-architecture Behavioral of control is
+architecture Comportamental of contador is
 begin
-    process(clk_1hz, reset)
+    process(valor)
     begin
-        if reset = '0' then
-            alarma_led <= '0';
-        elsif rising_edge(clk_1hz) then
-            -- Lógica simplificada de los 35 segundos para el ejemplo
-            alarma_led = '1'; -- ERROR AQUÍ
-        end if;
+        case valor is
+            when 0 => seg <= "1000000"; 
+            when 1 => seg <= "1111001"; 
+            when others => seg <= "1111111"; 
+        end case;
     end process;
-end Behavioral;
+end Comportamental;
