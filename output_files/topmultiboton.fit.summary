@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Sep 22 14:48:29 2026
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Web Edition
+Revision Name : topmultiboton
+Top-level Entity Name : topmultiboton
+Family : Cyclone III
+Device : EP3C16F484C6
+Timing Models : Final
+Total logic elements : 95 / 15,408 ( < 1 % )
+    Total combinational functions : 94 / 15,408 ( < 1 % )
+    Dedicated logic registers : 40 / 15,408 ( < 1 % )
+Total registers : 40
+Total pins : 25 / 347 ( 7 % )
+Total virtual pins : 0
+Total memory bits : 0 / 516,096 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
