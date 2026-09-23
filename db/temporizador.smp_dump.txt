@@ -1,6 +1,0 @@
-
-State Machine - |temporizador|control:MODULO_CONTROL|estado_actual
-Name estado_actual.EXCESO_TIEMPO estado_actual.OCUPADO_LIMITE estado_actual.LIBRE 
-estado_actual.LIBRE 0 0 0 
-estado_actual.OCUPADO_LIMITE 0 1 1 
-estado_actual.EXCESO_TIEMPO 1 0 1 
