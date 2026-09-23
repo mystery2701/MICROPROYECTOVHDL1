@@ -39,3 +39,11 @@ Lógica de Control Ejercicio 2 (Un Botón):
 * Arquitectura por Flujo de Datos: Utilizada en el bloque decodificador (`case` o `with-select`) para asignar concurrentemente los bits de salida a los segmentos.
 ## 6. Integración y Síntesis
 * Asignación de Pines:** Uso de *Pin Planner* para mapear las entradas a los switches/pulsadores y las salidas a los LEDs/Displays correspondientes.
+############################################################################################################################################################
+La Inteligencia Artificial sirvió como herramienta de apoyo técnico y referencia durante el desarrollo de este Microproyecto, manteniendo el diseño, la lógica y la estructura bajo autoría propia. Su integración abarcó tres puntos clave:
+
+Control de versiones (Git): Asistencia en la sintaxis del .gitignore para filtrar los archivos temporales de compilación de Quartus.
+
+Estructura VHDL: Soporte sintáctico para instanciar módulos y codificar máquinas de estados bajo las arquitecturas DataFlow, Comportamental y Estructural.
+
+Depuración (Troubleshooting): Ayuda para traducir e identificar la causa de errores de compilación, en particular la regla de "Multiple constant drivers", lo que guio la optimización de las condiciones de paro en el hardware.
