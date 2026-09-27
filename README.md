@@ -29,7 +29,7 @@ Proceso de planteamiento del proyecto
 * **Módulo de Contadores BCD:** El tiempo se codifica nativamente en unidades y decenas (cascada de 0-9 y 0-5) para facilitar su conexión a los displays de 7 segmentos.
 * **Separador Decimal:** Se integró el encendido estático del punto decimal (DP) en el display correspondiente a los minutos para brindar una lectura visual ergonómica en formato M.SS.
 * **Módulo Decodificador 7 Segmentos:** Arquitectura de flujo de datos que traduce los valores BCD a los pines físicos (ánodo común) del hardware.
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ## 4. Modelado Lógico (Enfoque Aritmético Fundamental)
 
@@ -56,7 +56,7 @@ Para cumplir estrictamente con los requerimientos de diseño de nivel introducto
 ## 6. Integración y Síntesis
 
 * **Asignación de Pines:** Uso de *Pin Planner* para mapear el reloj maestro a 50 MHz, las entradas a los switches/pulsadores y las salidas a los LEDs/Displays correspondientes, respetando la lógica activa en bajo requerida por los componentes de la tarjeta.
-#################################################################################################
+###################################################################################################
 La Inteligencia Artificial #gemini pro 3.1" sirvió como herramienta de apoyo técnico y referencia durante el desarrollo de este Microproyecto, manteniendo el diseño, la lógica y la estructura bajo autoría propia. Su integración abarcó tres puntos clave:
 
 Control de versiones (Git): Asistencia en la sintaxis del .gitignore para filtrar los archivos temporales de compilación de Quartus.
